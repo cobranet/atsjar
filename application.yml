@@ -1,0 +1,14 @@
+security:
+  user:
+    password: braca
+server:  
+  port: 8080
+  ssl:
+    enabled: true
+    key-alias: atsselfsigned
+    key-store: keystore.jks
+    key-store-password: anamarija
+#url: https://elendil:443/
+url: http://elendil:1860/
+
+timeout: 20
